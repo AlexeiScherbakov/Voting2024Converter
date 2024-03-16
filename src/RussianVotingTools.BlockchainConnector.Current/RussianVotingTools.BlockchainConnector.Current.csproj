@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>RussianVotingTools.BlockchainConnector</AssemblyName>
+		<RootNamespace>RussianVotingTools.BlockchainConnector</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.25.2" />
+		<PackageReference Include="Grpc.Net.Client" Version="2.60.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.61.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Protos\**\*.proto" GrpcServices="Client" AdditionalImportDirs="Protos" />
+		<Content Include="@(Protobuf)" LinkBase="Protos" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\RussianVotingTools.Database.FederalBlockchainVoting.Abstractions\RussianVotingTools.Database.FederalBlockchainVoting.Abstractions.csproj" />
+	</ItemGroup>
+
+</Project>

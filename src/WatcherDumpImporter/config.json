@@ -1,0 +1,28 @@
+﻿{
+	"databaseConnection": {
+		"server": "localhost",
+		"port": 5432,
+		"userName": "postgres",
+		"password": "1q2w3e4r!"
+	},
+	"shards": [
+		{
+			"logicalNumber": 1,
+			"name": "shard-0-node-6",
+			"stateDb": "d:\\voting3-compare\\2024-03-15-19-06\\shard0-node-6\\blockchain.db3",
+			"transactionLog": "d:\\voting3-compare\\2024-03-15-19-06\\shard0-node-6\\transaction_output.bin"
+		},
+		{
+			"logicalNumber": 2,
+			"name": "shard-1-node-6",
+			"stateDb": "d:\\voting3-compare\\2024-03-15-19-06\\shard1-node-6\\blockchain.db3",
+			"transactionLog": "d:\\voting3-compare\\2024-03-15-19-06\\shard1-node-6\\transaction_output.bin"
+		},
+		{
+			"logicalNumber": 3,
+			"name": "shard-2-node-6",
+			"stateDb": "d:\\voting3-compare\\2024-03-15-19-06\\shard2-node-6\\blockchain.db3",
+			"transactionLog": "d:\\voting3-compare\\2024-03-15-19-06\\shard2-node-6\\transaction_output.bin"
+		}
+	]
+}

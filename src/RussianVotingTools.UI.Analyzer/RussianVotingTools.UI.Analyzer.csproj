@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI" Version="19.5.41" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RussianVotingTools.Database.Main.Abstractions\RussianVotingTools.Database.Main.Abstractions.csproj" />
+    <ProjectReference Include="..\RussianVotingTools.UI.Abstractions\RussianVotingTools.UI.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

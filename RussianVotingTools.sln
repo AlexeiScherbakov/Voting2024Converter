@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F89005B3-E722-4535-A7F8-0FD7A49C0072}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C1444BF1-5186-4837-BC6E-1D65AF682F51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.UI.Abstractions", "src\RussianVotingTools.UI.Abstractions\RussianVotingTools.UI.Abstractions.csproj", "{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Database.Main", "src\RussianVotingTools.Database.Main\RussianVotingTools.Database.Main.csproj", "{F56D110B-04A8-4CBA-AD1C-B15F42B72718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{836519E9-35A4-4736-AA5E-9B34E6C30F5A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.UI.Analyzer", "src\RussianVotingTools.UI.Analyzer\RussianVotingTools.UI.Analyzer.csproj", "{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Database.Main.Abstractions", "src\RussianVotingTools.Database.Main.Abstractions\RussianVotingTools.Database.Main.Abstractions.csproj", "{733218D8-3EF3-4B0B-9DFD-D318404CA949}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.DataAbstractions", "src\RussianVotingTools.DataAbstractions\RussianVotingTools.DataAbstractions.csproj", "{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Database.FederalBlockchainVoting", "src\RussianVotingTools.Database.FederalBlockchainVoting\RussianVotingTools.Database.FederalBlockchainVoting.csproj", "{01F54606-2489-46FA-A1C7-7D60BDA8DC1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Database.FederalBlockchainVoting.Abstractions", "src\RussianVotingTools.Database.FederalBlockchainVoting.Abstractions\RussianVotingTools.Database.FederalBlockchainVoting.Abstractions.csproj", "{04987C9B-1D0E-4C41-A52A-214BB1F52715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.BlockchainConnector.Current", "src\RussianVotingTools.BlockchainConnector.Current\RussianVotingTools.BlockchainConnector.Current.csproj", "{DBA0C236-1DEA-4894-AE2A-ADDBC182E025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.BlockchainConnector.Abstractions", "src\RussianVotingTools.BlockchainConnector.Abstractions\RussianVotingTools.BlockchainConnector.Abstractions.csproj", "{46B5C61E-C07B-45CD-8187-5C5CA3A23723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Database.Watcher", "src\RussianVotingTools.Database.Watcher\RussianVotingTools.Database.Watcher.csproj", "{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.TransactionFiles", "src\RussianVotingTools.TransactionFiles\RussianVotingTools.TransactionFiles.csproj", "{80CEE1EC-0FF3-447C-B66B-E49051B404C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatcherDumpImporter", "src\WatcherDumpImporter\WatcherDumpImporter.csproj", "{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianVotingTools.Visualization", "src\RussianVotingTools.Visualization\RussianVotingTools.Visualization.csproj", "{B6309E7E-C6FF-4972-B835-A2D893A46D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56D110B-04A8-4CBA-AD1C-B15F42B72718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56D110B-04A8-4CBA-AD1C-B15F42B72718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56D110B-04A8-4CBA-AD1C-B15F42B72718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56D110B-04A8-4CBA-AD1C-B15F42B72718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733218D8-3EF3-4B0B-9DFD-D318404CA949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733218D8-3EF3-4B0B-9DFD-D318404CA949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733218D8-3EF3-4B0B-9DFD-D318404CA949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733218D8-3EF3-4B0B-9DFD-D318404CA949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F54606-2489-46FA-A1C7-7D60BDA8DC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F54606-2489-46FA-A1C7-7D60BDA8DC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F54606-2489-46FA-A1C7-7D60BDA8DC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F54606-2489-46FA-A1C7-7D60BDA8DC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04987C9B-1D0E-4C41-A52A-214BB1F52715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04987C9B-1D0E-4C41-A52A-214BB1F52715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04987C9B-1D0E-4C41-A52A-214BB1F52715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04987C9B-1D0E-4C41-A52A-214BB1F52715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA0C236-1DEA-4894-AE2A-ADDBC182E025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA0C236-1DEA-4894-AE2A-ADDBC182E025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA0C236-1DEA-4894-AE2A-ADDBC182E025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA0C236-1DEA-4894-AE2A-ADDBC182E025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B5C61E-C07B-45CD-8187-5C5CA3A23723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B5C61E-C07B-45CD-8187-5C5CA3A23723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B5C61E-C07B-45CD-8187-5C5CA3A23723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B5C61E-C07B-45CD-8187-5C5CA3A23723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CEE1EC-0FF3-447C-B66B-E49051B404C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CEE1EC-0FF3-447C-B66B-E49051B404C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CEE1EC-0FF3-447C-B66B-E49051B404C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CEE1EC-0FF3-447C-B66B-E49051B404C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6309E7E-C6FF-4972-B835-A2D893A46D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6309E7E-C6FF-4972-B835-A2D893A46D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6309E7E-C6FF-4972-B835-A2D893A46D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6309E7E-C6FF-4972-B835-A2D893A46D92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8BD89B2-B184-4F8D-A6BC-EC25028FFCB6} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{F56D110B-04A8-4CBA-AD1C-B15F42B72718} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{FF1FCC7E-EFDE-408A-9B73-8FCE867F07A0} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{733218D8-3EF3-4B0B-9DFD-D318404CA949} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{F01DB0CA-80DD-4ED1-A4E0-732D91E67E82} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{01F54606-2489-46FA-A1C7-7D60BDA8DC1E} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{04987C9B-1D0E-4C41-A52A-214BB1F52715} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{DBA0C236-1DEA-4894-AE2A-ADDBC182E025} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{46B5C61E-C07B-45CD-8187-5C5CA3A23723} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{DCBBD6F3-0545-4DA4-92A0-79C3F122ADDD} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{80CEE1EC-0FF3-447C-B66B-E49051B404C9} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{CA9BE8B1-1B3F-4F60-936F-43CB0B111AAB} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+		{B6309E7E-C6FF-4972-B835-A2D893A46D92} = {F89005B3-E722-4535-A7F8-0FD7A49C0072}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DE051B7-B11C-49FA-A30D-674E145A8678}
+	EndGlobalSection
+EndGlobal
